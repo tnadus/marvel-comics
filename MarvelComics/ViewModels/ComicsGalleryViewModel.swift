@@ -43,6 +43,13 @@ class ComicsGalleryViewModel {
         return ""
     }
     
+    func cellIssueNumberTitle(indexPath: IndexPath) -> String {
+        if let number = comics.value[indexPath.row].issueNumberString {
+            return "Issue number: \(number)"
+        }
+        return ""
+    }
+    
     func formattedDateString(_ dateString: String) -> String {
         let dateObj = dateFormatterInput.date(from: dateString)
         if let date = dateObj {

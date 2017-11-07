@@ -14,7 +14,6 @@ class ComicsGalleryViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         self.title = viewModel.title
         
@@ -32,7 +31,6 @@ class ComicsGalleryViewController: UICollectionViewController {
 }
 
 //MARK: UIViewCollectionDataSource
-
 extension ComicsGalleryViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -43,12 +41,7 @@ extension ComicsGalleryViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ComicCellId", for: indexPath) as! ComicGalleryCell
         
         cell.titleLabel.text = viewModel.cellTitle(indexPath: indexPath)
-        
-        if let dateString = viewModel.comics.value[indexPath.row].releaseDateString {
-            cell.releaseDateLabel.text = viewModel.formattedDateString(dateString)
-        } else {
-            cell.releaseDateLabel.text = ""
-        }
+        cell.issueNumberLabel.text = viewModel.cellIssueNumberTitle(indexPath: indexPath)
         
         if let urlStr = viewModel.comics.value[indexPath.row].coverImageURL {
             cell.urlString = urlStr
@@ -60,8 +53,20 @@ extension ComicsGalleryViewController {
                 }
             })
         }
-        
         return cell
+    }
+}
+
+//MARK: UIViewCollectionDelegate
+extension ComicsGalleryViewController {
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let cell = collectionView.cellForItem(at: indexPath) as! ComicGalleryCell
+        let comic = viewModel.comics.value[indexPath.row]
+        
+        let comicVc: ComicViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ComicViewController") as! ComicViewController
+        comicVc.viewModel = ComicViewModel(comic: comic, coverImage: cell.coverImgView.image)
+        self.navigationController?.pushViewController(comicVc, animated: true)
     }
 }
 
