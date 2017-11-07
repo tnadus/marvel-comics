@@ -24,18 +24,16 @@ class ComicGalleryCell: UICollectionViewCell {
     let titleLabel: UILabel = {
         let l = UILabel(frame: .zero)
         l.translatesAutoresizingMaskIntoConstraints = false
-        l.backgroundColor = .orange
         l.textColor = .black
-        l.text = "Comic title goes here"
+        l.font = UIFont.boldSystemFont(ofSize: 14.0)
         return l
     }()
     
-    let artistLabel: UILabel = {
+    let releaseDateLabel: UILabel = {
         let l = UILabel(frame: .zero)
         l.translatesAutoresizingMaskIntoConstraints = false
-        l.backgroundColor = .orange
         l.textColor = .black
-        l.text = "artist name goes here"
+        l.font = UIFont.systemFont(ofSize: 12.0)
         return l
     }()
     
@@ -61,10 +59,10 @@ class ComicGalleryCell: UICollectionViewCell {
         
         self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-15-[tl(==30)]", options: NSLayoutFormatOptions(), metrics: nil, views: ["tl" : titleLabel]))
         
-        self.addSubview(artistLabel)
-        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-85-[al]-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["al" : artistLabel]))
+        self.addSubview(releaseDateLabel)
+        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-85-[al]-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["al" : releaseDateLabel]))
         
-        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-50-[al(==30)]-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["al" : artistLabel]))
+        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-50-[al(==30)]-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["al" : releaseDateLabel]))
         
     }
     

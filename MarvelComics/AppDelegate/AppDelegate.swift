@@ -16,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        
+//        
+//        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+//        
+//        let viewController = storyboard.instantiateViewController(withIdentifier: "ComicsGalleryViewController") as! ComicsGalleryViewController
+//        let marvelComicsAPI = MarvelComicsAPI()
+//        viewController.marvelComicsAPI = marvelComicsAPI
+//        
+//        let navigationController = UINavigationController(rootViewController: viewController)
+//        self.window?.rootViewController = navigationController
+//        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
