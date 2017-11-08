@@ -116,7 +116,7 @@ extension ComicsGalleryViewController: UICollectionViewDelegateFlowLayout {
             return viewModel.cellSize(width:self.view.frame.width, height: 90.0)
         }
         
-        return viewModel.cellSize(width: (self.view.frame.width/3.0 - 20), height: 90.0)
+        return viewModel.cellSize(width: (self.view.frame.width/3.0 - 3), height: 90.0)
     }
 }
 
