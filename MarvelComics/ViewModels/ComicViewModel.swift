@@ -51,7 +51,7 @@ class ComicViewModel {
             return text
         }
         
-        return "No hero found in this comic"
+        return "No characters found in this comic"
         
     }
     

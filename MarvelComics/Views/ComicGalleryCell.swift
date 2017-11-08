@@ -36,14 +36,7 @@ class ComicGalleryCell: UICollectionViewCell {
         l.font = UIFont.systemFont(ofSize: 12.0)
         return l
     }()
-    
-    let bottomLine: UIView = {
-        let v = UIView()
-        v.translatesAutoresizingMaskIntoConstraints = false
-        v.backgroundColor = UIColor(white: 0.8, alpha: 1.0)
-        return v
-    }()
-    
+        
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -80,12 +73,6 @@ class ComicGalleryCell: UICollectionViewCell {
         self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-85-[inl]-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["inl" : issueNumberLabel]))
         
         self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-50-[inl(==30)]", options: NSLayoutFormatOptions(), metrics: nil, views: ["inl" : issueNumberLabel]))
-        
-//        self.addSubview(bottomLine)
-//        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[bl]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["bl" : bottomLine]))
-//        
-//        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:[bl(==1)]-0-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["bl" : bottomLine]))
-        
     }
     
 }

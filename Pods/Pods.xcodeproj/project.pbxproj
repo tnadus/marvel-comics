@@ -7,50 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08A37F275A7B43E7C6C40BCAA783A1C5 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D29B3CE904A4EB3D3BBAEA6FE900033 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08A37F275A7B43E7C6C40BCAA783A1C5 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BD060289BDE4CC793519E7A09CC72E7 /* Pods-MarvelComics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A54E2702F091B6982E1E4EC79560ED5 /* Pods-MarvelComics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E6FE9A41A70706F66C2B0F0E0285DEE /* Matchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1E957ACE2BA1316391D142EDF551B /* Matchers.swift */; };
-		1E581308D18010B04E1B9277D1CA326C /* NSURLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA161A04F2E7B2F5F219C9C097C472B5 /* NSURLSessionConfiguration.swift */; };
-		372BB941B3EF4C81530686031A897469 /* MockingjayURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8B3AB212A320CC3ECD84227300C58 /* MockingjayURLSessionConfiguration.m */; };
-		493AEB6C0DCA33D11C6AD702E99D9239 /* Pods-MarvelComicsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0BD290A1DCC20A34728325AECCEB02 /* Pods-MarvelComicsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52DC77D8E40A9F8C775F893EF005EB7D /* XCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CDD347EF814887202418E6D1186E4 /* XCTest.swift */; };
-		562BA5BF51D84691C5EEF13022CC24B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A2EE7D6E287CB1C675AA9599984CE9 /* Foundation.framework */; };
 		5A27901EA429FDBE8971362CD986DE1A /* Pods-MarvelComics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3426DEF651876645A3C6150EF4DBC70B /* Pods-MarvelComics-dummy.m */; };
-		69627B1284EB3494300C000F0C03823E /* URITemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F787F8B065EB40F04124FCA0EF3127 /* URITemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		858291B58A881312568A4923D77AC342 /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CB8AD5D5CB1A64B41A3A79A69567AF /* Builders.swift */; };
-		9FC1F54C144A8B32769E61D2CC06A210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A2EE7D6E287CB1C675AA9599984CE9 /* Foundation.framework */; };
-		A1136007D0AE6FA6A4880E97642D1E49 /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E4F79849556C25CED115FE8F04F89A /* URITemplate.framework */; };
-		A772772A87F6C0A6F0784A6288A80339 /* Mockingjay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B423C580CEE77B00009D9EB3270EA1 /* Mockingjay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFEB228EE8773B9A92A5837E0EEDD85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A2EE7D6E287CB1C675AA9599984CE9 /* Foundation.framework */; };
-		B23957DA7E15E50EE78380F59E4ECC72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A2EE7D6E287CB1C675AA9599984CE9 /* Foundation.framework */; };
-		B8B3D57CA60B61B88DB3AD274BDD5886 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98FE32420F4BA38A3ECFB6D5525F39 /* SwiftyJSON.swift */; };
-		BD3ECD22B11335305840AF1FDB992D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A2EE7D6E287CB1C675AA9599984CE9 /* Foundation.framework */; };
-		C6DC5F4E9DE8018DB4AE41DDECB3F205 /* URITemplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AE8CFAEF7B173F0A2FBDEF9BA85D24 /* URITemplate-dummy.m */; };
-		CBD95DE2475DD3C44711E77F0BC7B08A /* URITemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36F609BA824222D857F53F69830D91 /* URITemplate.swift */; };
-		D5542F9674E63C82920F99B4A25CB3EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A335FE2B3CEC7AF34DDE4BBBF14F1C7 /* XCTest.framework */; };
-		D8BC1B98A6B514076F06A52040AAFCB1 /* Mockingjay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678662C3916D719C88E21D84733E72C /* Mockingjay.swift */; };
-		DDF5ADCE281E192184D598A6472922DB /* Mockingjay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9046C602F0D1671519D97625EEFF0854 /* Mockingjay-dummy.m */; };
-		E103D80CCC6ACBE4879AA819DA0527D4 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E12B5EEBF8C7A5795319B84A31FF03 /* SwiftyJSON-dummy.m */; };
-		E141F8C5C74F5EE4F7E703D5C0E812BC /* Mockingjay.h in Headers */ = {isa = PBXBuildFile; fileRef = FD35FA61D9C54CFCFE21566F33B504B8 /* Mockingjay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4BEB021BA1C6A64F24463BB76CE21B2 /* Pods-MarvelComicsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19E8FEA20D2102654396942B6F7505 /* Pods-MarvelComicsTests-dummy.m */; };
-		F405E30C12DEEBD7216CC5514A383226 /* MockingjayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684839C2D94BAA08C447E36E2AFCAB88 /* MockingjayProtocol.swift */; };
+		9FC1F54C144A8B32769E61D2CC06A210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B23957DA7E15E50EE78380F59E4ECC72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B8B3D57CA60B61B88DB3AD274BDD5886 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
+		CB7407802A09B4A7C8CF616CE8C18D58 /* Pods-MarvelComicsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19E8FEA20D2102654396942B6F7505 /* Pods-MarvelComicsTests-dummy.m */; };
+		D4CD703F66D91B350F67CDB4F0D35265 /* Pods-MarvelComicsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0BD290A1DCC20A34728325AECCEB02 /* Pods-MarvelComicsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E103D80CCC6ACBE4879AA819DA0527D4 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */; };
+		F16AE28F0B27CE1A697B26B3DCC7CB3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		37BFFDAAA0C4330B0981D7AB5E102997 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BAEE407D509A3F67350A21DD9179E25;
-			remoteInfo = URITemplate;
-		};
-		588DE0275716CEB20EBFE743183BEC71 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BAACC736A5215103E10E2DC0A74FDCD;
-			remoteInfo = Mockingjay;
-		};
 		CCD713F85849F5FE8006AF24644AAB7C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -58,73 +27,41 @@
 			remoteGlobalIDString = FF4E4B0D65F36A3E76AC44B99F902C24;
 			remoteInfo = SwiftyJSON;
 		};
-		F2CA48D79945F5AAFE4DFA032EEA3F4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BAEE407D509A3F67350A21DD9179E25;
-			remoteInfo = URITemplate;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044CDD347EF814887202418E6D1186E4 /* XCTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCTest.swift; path = Mockingjay/XCTest.swift; sourceTree = "<group>"; };
-		060FC607B0E997F81D9CA92741DC2690 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		0AEBAA66E00C3C759A6D168B89338846 /* Pods-MarvelComics-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelComics-resources.sh"; sourceTree = "<group>"; };
-		0D98FE32420F4BA38A3ECFB6D5525F39 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		1E56BE47EB001A6D39DC49A0521E484E /* Pods-MarvelComicsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelComicsTests-frameworks.sh"; sourceTree = "<group>"; };
-		2055C565D3662FC91B71BC0D55FDB8D7 /* URITemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URITemplate-prefix.pch"; sourceTree = "<group>"; };
-		223638C073680CFF3B7B443D8D0D05A0 /* Pods_MarvelComics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarvelComics.framework; path = "Pods-MarvelComics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F36F609BA824222D857F53F69830D91 /* URITemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URITemplate.swift; path = Sources/URITemplate.swift; sourceTree = "<group>"; };
-		2F8C47B63AD8898FC632E51D5E3B2756 /* Mockingjay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mockingjay-prefix.pch"; sourceTree = "<group>"; };
+		263C0E271125F7F55370E67D2A5A6662 /* Pods_MarvelComics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarvelComics.framework; path = "Pods-MarvelComics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		3426DEF651876645A3C6150EF4DBC70B /* Pods-MarvelComics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarvelComics-dummy.m"; sourceTree = "<group>"; };
 		4B9F7C5B74A29635605FE744AF40344B /* Pods-MarvelComicsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelComicsTests-resources.sh"; sourceTree = "<group>"; };
-		4BD9CE4ADCE009863491F1FC21F3675F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F19E8FEA20D2102654396942B6F7505 /* Pods-MarvelComicsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarvelComicsTests-dummy.m"; sourceTree = "<group>"; };
-		4FC50881724EB3550480D0C68964D97F /* Mockingjay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mockingjay.xcconfig; sourceTree = "<group>"; };
-		5678662C3916D719C88E21D84733E72C /* Mockingjay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mockingjay.swift; path = Mockingjay/Mockingjay.swift; sourceTree = "<group>"; };
 		5A54E2702F091B6982E1E4EC79560ED5 /* Pods-MarvelComics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarvelComics-umbrella.h"; sourceTree = "<group>"; };
-		684839C2D94BAA08C447E36E2AFCAB88 /* MockingjayProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockingjayProtocol.swift; path = Mockingjay/MockingjayProtocol.swift; sourceTree = "<group>"; };
-		68C8B3AB212A320CC3ECD84227300C58 /* MockingjayURLSessionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MockingjayURLSessionConfiguration.m; path = Mockingjay/MockingjayURLSessionConfiguration.m; sourceTree = "<group>"; };
+		60BFF0291D1A7B34194BB6BE82F1B246 /* Pods_MarvelComicsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarvelComicsTests.framework; path = "Pods-MarvelComicsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6326A44557BBD8B1EA5C6F82C00B580F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A46BC81DEA68BC47DF71D8441EE9278 /* Pods-MarvelComics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelComics.release.xcconfig"; sourceTree = "<group>"; };
-		6D29B3CE904A4EB3D3BBAEA6FE900033 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		73E4F79849556C25CED115FE8F04F89A /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2795638A73C4CC6F3FEE0841DD4F3D /* Pods-MarvelComicsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelComicsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F753542FDFC9473B320535C968544FF /* Pods-MarvelComics-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarvelComics-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8BF1E957ACE2BA1316391D142EDF551B /* Matchers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matchers.swift; path = Mockingjay/Matchers.swift; sourceTree = "<group>"; };
 		8F51B2630CD1F9A606AFD46FE564689E /* Pods-MarvelComics-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelComics-frameworks.sh"; sourceTree = "<group>"; };
-		9046C602F0D1671519D97625EEFF0854 /* Mockingjay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mockingjay-dummy.m"; sourceTree = "<group>"; };
-		90D943A9D97BA3E46F9ADE0F0B8DF5F2 /* Pods_MarvelComicsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarvelComicsTests.framework; path = "Pods-MarvelComicsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97FB278DF2856439344EC6D81E96A29F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98079CB4A1DC1FDFB58FE37DB3A348AC /* Pods-MarvelComicsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MarvelComicsTests.modulemap"; sourceTree = "<group>"; };
 		9A1A0DA47338B960D1FB6273CC2B9872 /* Pods-MarvelComicsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelComicsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9A335FE2B3CEC7AF34DDE4BBBF14F1C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9F0BD290A1DCC20A34728325AECCEB02 /* Pods-MarvelComicsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarvelComicsTests-umbrella.h"; sourceTree = "<group>"; };
 		A4B1C6796CA8E03BBDB5B1F20DDEECF0 /* Pods-MarvelComicsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelComicsTests.release.xcconfig"; sourceTree = "<group>"; };
-		A8A2EE7D6E287CB1C675AA9599984CE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AA6D7E2F8C732490094F376E72EDF7B7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD63E578B444BCB17541CC772BFE1C90 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		B5E12B5EEBF8C7A5795319B84A31FF03 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		B7AE8CFAEF7B173F0A2FBDEF9BA85D24 /* URITemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "URITemplate-dummy.m"; sourceTree = "<group>"; };
-		B9F67447D2939FE81ACB244F86960D8A /* Mockingjay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Mockingjay.modulemap; sourceTree = "<group>"; };
-		C2B423C580CEE77B00009D9EB3270EA1 /* Mockingjay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mockingjay-umbrella.h"; sourceTree = "<group>"; };
+		BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		C332ECD5169F2A7925F13F57EC68DA5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAFDFB056CB5426283F3562E01DEFE8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		D16F049C390B95044E889CA5D15D8AE8 /* Pods-MarvelComics-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelComics-acknowledgements.plist"; sourceTree = "<group>"; };
 		D268B19D54692A67DE943BDDF9398CA4 /* Pods-MarvelComicsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarvelComicsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D293AA3A8F0BA950E162E26C20373AE7 /* URITemplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = URITemplate.modulemap; sourceTree = "<group>"; };
-		D2CC5FD12BE881F053900AB96539060E /* Mockingjay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mockingjay.framework; path = Mockingjay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA161A04F2E7B2F5F219C9C097C472B5 /* NSURLSessionConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSURLSessionConfiguration.swift; path = Mockingjay/NSURLSessionConfiguration.swift; sourceTree = "<group>"; };
-		DB8426615328CCF1B172F9647E4CBC25 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		E6CB8AD5D5CB1A64B41A3A79A69567AF /* Builders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Builders.swift; path = Mockingjay/Builders.swift; sourceTree = "<group>"; };
-		E8F920FCBA4C8BBECAD3015B8FA35287 /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URITemplate.framework; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6C9DDD70B2F440413189C66A30CBD4 /* Pods-MarvelComics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelComics.debug.xcconfig"; sourceTree = "<group>"; };
-		F1F787F8B065EB40F04124FCA0EF3127 /* URITemplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URITemplate-umbrella.h"; sourceTree = "<group>"; };
 		F5A64E36196EE4634B1A5C7C7CC37D1F /* Pods-MarvelComics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MarvelComics.modulemap"; sourceTree = "<group>"; };
 		F71DF6DD785F1CC905F4179719A2AE0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA8E9CD8117A9F5FF19BC024628C1F37 /* URITemplate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URITemplate.xcconfig; sourceTree = "<group>"; };
-		FD35FA61D9C54CFCFE21566F33B504B8 /* Mockingjay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mockingjay.h; path = Mockingjay/Mockingjay.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,21 +73,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BB05285ABDA9CCA2A853AA15A47B63B /* Frameworks */ = {
+		7376D7CF5686B52CBCDA02730AB79D95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD3ECD22B11335305840AF1FDB992D2A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96C3909747E8F888CBAF210A6B9F7073 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				562BA5BF51D84691C5EEF13022CC24B0 /* Foundation.framework in Frameworks */,
-				A1136007D0AE6FA6A4880E97642D1E49 /* URITemplate.framework in Frameworks */,
-				D5542F9674E63C82920F99B4A25CB3EB /* XCTest.framework in Frameworks */,
+				F16AE28F0B27CE1A697B26B3DCC7CB3D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,39 +89,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8E507DBC18CAE3994BAC2B944F26ED7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFEB228EE8773B9A92A5837E0EEDD85F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02D489FA0772486BFBF73583EE8644CB /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				0D98FE32420F4BA38A3ECFB6D5525F39 /* SwiftyJSON.swift */,
-				8B2D178CE90637E252DAF31E3C43AFC0 /* Support Files */,
-			);
-			name = SwiftyJSON;
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		085E69B22A795CBDD2D0B260464BC28A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D2CC5FD12BE881F053900AB96539060E /* Mockingjay.framework */,
-				223638C073680CFF3B7B443D8D0D05A0 /* Pods_MarvelComics.framework */,
-				90D943A9D97BA3E46F9ADE0F0B8DF5F2 /* Pods_MarvelComicsTests.framework */,
-				AA6D7E2F8C732490094F376E72EDF7B7 /* SwiftyJSON.framework */,
-				E8F920FCBA4C8BBECAD3015B8FA35287 /* URITemplate.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		0C4561676BE8297B62C7B1163E3E0168 /* Pods-MarvelComicsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,22 +110,14 @@
 			path = "Target Support Files/Pods-MarvelComicsTests";
 			sourceTree = "<group>";
 		};
-		2A3142AD419B9B5706136750E906E882 /* XCTest */ = {
+		145CAE56E17E785A491830D2C7927083 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				044CDD347EF814887202418E6D1186E4 /* XCTest.swift */,
+				263C0E271125F7F55370E67D2A5A6662 /* Pods_MarvelComics.framework */,
+				60BFF0291D1A7B34194BB6BE82F1B246 /* Pods_MarvelComicsTests.framework */,
+				6326A44557BBD8B1EA5C6F82C00B580F /* SwiftyJSON.framework */,
 			);
-			name = XCTest;
-			sourceTree = "<group>";
-		};
-		2AE7FC253DD933FFF806CA9F187EC25D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7DC86C3D64DAA82C91E6319C36BAEFD8 /* Mockingjay */,
-				02D489FA0772486BFBF73583EE8644CB /* SwiftyJSON */,
-				7CD48F0AFFFBE638153AB6757D8F6D6A /* URITemplate */,
-			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3B3FAE568AA639FC61A4710CCF2EC4C5 /* Targets Support Files */ = {
@@ -240,96 +129,63 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		77A43DC373723C2F6F90E60BE014B7BC /* iOS */ = {
+		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				A8A2EE7D6E287CB1C675AA9599984CE9 /* Foundation.framework */,
-				9A335FE2B3CEC7AF34DDE4BBBF14F1C7 /* XCTest.framework */,
+				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
+				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7CD48F0AFFFBE638153AB6757D8F6D6A /* URITemplate */ = {
-			isa = PBXGroup;
-			children = (
-				2F36F609BA824222D857F53F69830D91 /* URITemplate.swift */,
-				B0CB5A802451454CCBA821A23595F1A8 /* Support Files */,
-			);
-			name = URITemplate;
-			path = URITemplate;
+			name = SwiftyJSON;
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B9D96DDB2A580195276DEA4CCB386A35 /* Frameworks */,
-				2AE7FC253DD933FFF806CA9F187EC25D /* Pods */,
-				085E69B22A795CBDD2D0B260464BC28A /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
+				145CAE56E17E785A491830D2C7927083 /* Products */,
 				3B3FAE568AA639FC61A4710CCF2EC4C5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DC86C3D64DAA82C91E6319C36BAEFD8 /* Mockingjay */ = {
+		8EC39E1DC11846207722B71AAFE40F98 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FE60CF21D998D4D1FD179D2B28375C0A /* Core */,
-				DD8AA4EE2F1FC1EEBC50DF2555A35709 /* Support Files */,
-				2A3142AD419B9B5706136750E906E882 /* XCTest */,
-			);
-			name = Mockingjay;
-			path = Mockingjay;
-			sourceTree = "<group>";
-		};
-		8B2D178CE90637E252DAF31E3C43AFC0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				97FB278DF2856439344EC6D81E96A29F /* Info.plist */,
-				AD63E578B444BCB17541CC772BFE1C90 /* SwiftyJSON.modulemap */,
-				DB8426615328CCF1B172F9647E4CBC25 /* SwiftyJSON.xcconfig */,
-				B5E12B5EEBF8C7A5795319B84A31FF03 /* SwiftyJSON-dummy.m */,
-				060FC607B0E997F81D9CA92741DC2690 /* SwiftyJSON-prefix.pch */,
-				6D29B3CE904A4EB3D3BBAEA6FE900033 /* SwiftyJSON-umbrella.h */,
+				C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */,
+				D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */,
+				2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */,
+				32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */,
+				BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */,
+				05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		B0CB5A802451454CCBA821A23595F1A8 /* Support Files */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4BD9CE4ADCE009863491F1FC21F3675F /* Info.plist */,
-				D293AA3A8F0BA950E162E26C20373AE7 /* URITemplate.modulemap */,
-				FA8E9CD8117A9F5FF19BC024628C1F37 /* URITemplate.xcconfig */,
-				B7AE8CFAEF7B173F0A2FBDEF9BA85D24 /* URITemplate-dummy.m */,
-				2055C565D3662FC91B71BC0D55FDB8D7 /* URITemplate-prefix.pch */,
-				F1F787F8B065EB40F04124FCA0EF3127 /* URITemplate-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/URITemplate";
-			sourceTree = "<group>";
-		};
-		B9D96DDB2A580195276DEA4CCB386A35 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				73E4F79849556C25CED115FE8F04F89A /* URITemplate.framework */,
-				77A43DC373723C2F6F90E60BE014B7BC /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD8AA4EE2F1FC1EEBC50DF2555A35709 /* Support Files */ = {
+		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CAFDFB056CB5426283F3562E01DEFE8F /* Info.plist */,
-				B9F67447D2939FE81ACB244F86960D8A /* Mockingjay.modulemap */,
-				4FC50881724EB3550480D0C68964D97F /* Mockingjay.xcconfig */,
-				9046C602F0D1671519D97625EEFF0854 /* Mockingjay-dummy.m */,
-				2F8C47B63AD8898FC632E51D5E3B2756 /* Mockingjay-prefix.pch */,
-				C2B423C580CEE77B00009D9EB3270EA1 /* Mockingjay-umbrella.h */,
+				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Mockingjay";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F0196DE4A75A88B934BEA3E3E3DE3041 /* Pods-MarvelComics */ = {
@@ -350,45 +206,14 @@
 			path = "Target Support Files/Pods-MarvelComics";
 			sourceTree = "<group>";
 		};
-		FE60CF21D998D4D1FD179D2B28375C0A /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E6CB8AD5D5CB1A64B41A3A79A69567AF /* Builders.swift */,
-				8BF1E957ACE2BA1316391D142EDF551B /* Matchers.swift */,
-				FD35FA61D9C54CFCFE21566F33B504B8 /* Mockingjay.h */,
-				5678662C3916D719C88E21D84733E72C /* Mockingjay.swift */,
-				684839C2D94BAA08C447E36E2AFCAB88 /* MockingjayProtocol.swift */,
-				68C8B3AB212A320CC3ECD84227300C58 /* MockingjayURLSessionConfiguration.m */,
-				DA161A04F2E7B2F5F219C9C097C472B5 /* NSURLSessionConfiguration.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6E6EDE079D69649DD4E850E5D8E48EDD /* Headers */ = {
+		04CB4A861E7D6655F628217713C5959C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A772772A87F6C0A6F0784A6288A80339 /* Mockingjay-umbrella.h in Headers */,
-				E141F8C5C74F5EE4F7E703D5C0E812BC /* Mockingjay.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79EEEAC562F4508EFD70C2A5A27F5845 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69627B1284EB3494300C000F0C03823E /* URITemplate-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3CDB3946A8C73D4505296F6D6739075 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				493AEB6C0DCA33D11C6AD702E99D9239 /* Pods-MarvelComicsTests-umbrella.h in Headers */,
+				D4CD703F66D91B350F67CDB4F0D35265 /* Pods-MarvelComicsTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,58 +236,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5BAACC736A5215103E10E2DC0A74FDCD /* Mockingjay */ = {
+		B57B1CE872A41719046EE437B3082D8B /* Pods-MarvelComicsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16964F8FBB08BEB4B7115105EAFE5724 /* Build configuration list for PBXNativeTarget "Mockingjay" */;
+			buildConfigurationList = 31BC4F28B578E7B1121387EBEBF7F495 /* Build configuration list for PBXNativeTarget "Pods-MarvelComicsTests" */;
 			buildPhases = (
-				251A36CF3049024F5C30AE522CF8BB29 /* Sources */,
-				96C3909747E8F888CBAF210A6B9F7073 /* Frameworks */,
-				6E6EDE079D69649DD4E850E5D8E48EDD /* Headers */,
+				B4A0CDF486E22EB2590BFD2710CFBCCB /* Sources */,
+				7376D7CF5686B52CBCDA02730AB79D95 /* Frameworks */,
+				04CB4A861E7D6655F628217713C5959C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				839503359D65F5788C9EBE47FB7F0589 /* PBXTargetDependency */,
-			);
-			name = Mockingjay;
-			productName = Mockingjay;
-			productReference = D2CC5FD12BE881F053900AB96539060E /* Mockingjay.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5BAEE407D509A3F67350A21DD9179E25 /* URITemplate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCA68A49A2A8E077759AAE99867F0AEC /* Build configuration list for PBXNativeTarget "URITemplate" */;
-			buildPhases = (
-				8DE90B2517C82524DCC0ABE2CBE7DD94 /* Sources */,
-				C8E507DBC18CAE3994BAC2B944F26ED7 /* Frameworks */,
-				79EEEAC562F4508EFD70C2A5A27F5845 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = URITemplate;
-			productName = URITemplate;
-			productReference = E8F920FCBA4C8BBECAD3015B8FA35287 /* URITemplate.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		880D87876D0E1FCBDAD7135EECF2A7F3 /* Pods-MarvelComicsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D98DD6C4CF38D5430309DD1E4BE69A9A /* Build configuration list for PBXNativeTarget "Pods-MarvelComicsTests" */;
-			buildPhases = (
-				D7F447B04C4F4AF90C5ED6DC23A6B581 /* Sources */,
-				1BB05285ABDA9CCA2A853AA15A47B63B /* Frameworks */,
-				A3CDB3946A8C73D4505296F6D6739075 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D74CB841467984836A5D09C1B879C8BE /* PBXTargetDependency */,
-				4D6DE8BE918141C6EB544CAE6139F2BE /* PBXTargetDependency */,
 			);
 			name = "Pods-MarvelComicsTests";
 			productName = "Pods-MarvelComicsTests";
-			productReference = 90D943A9D97BA3E46F9ADE0F0B8DF5F2 /* Pods_MarvelComicsTests.framework */;
+			productReference = 60BFF0291D1A7B34194BB6BE82F1B246 /* Pods_MarvelComicsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F435309D0A37FF4A36D3CF9B20BE2FC8 /* Pods-MarvelComics */ = {
@@ -480,7 +268,7 @@
 			);
 			name = "Pods-MarvelComics";
 			productName = "Pods-MarvelComics";
-			productReference = 223638C073680CFF3B7B443D8D0D05A0 /* Pods_MarvelComics.framework */;
+			productReference = 263C0E271125F7F55370E67D2A5A6662 /* Pods_MarvelComics.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF4E4B0D65F36A3E76AC44B99F902C24 /* SwiftyJSON */ = {
@@ -497,7 +285,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = AA6D7E2F8C732490094F376E72EDF7B7 /* SwiftyJSON.framework */;
+			productReference = 6326A44557BBD8B1EA5C6F82C00B580F /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -517,35 +305,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 085E69B22A795CBDD2D0B260464BC28A /* Products */;
+			productRefGroup = 145CAE56E17E785A491830D2C7927083 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BAACC736A5215103E10E2DC0A74FDCD /* Mockingjay */,
 				F435309D0A37FF4A36D3CF9B20BE2FC8 /* Pods-MarvelComics */,
-				880D87876D0E1FCBDAD7135EECF2A7F3 /* Pods-MarvelComicsTests */,
+				B57B1CE872A41719046EE437B3082D8B /* Pods-MarvelComicsTests */,
 				FF4E4B0D65F36A3E76AC44B99F902C24 /* SwiftyJSON */,
-				5BAEE407D509A3F67350A21DD9179E25 /* URITemplate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		251A36CF3049024F5C30AE522CF8BB29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				858291B58A881312568A4923D77AC342 /* Builders.swift in Sources */,
-				0E6FE9A41A70706F66C2B0F0E0285DEE /* Matchers.swift in Sources */,
-				DDF5ADCE281E192184D598A6472922DB /* Mockingjay-dummy.m in Sources */,
-				D8BC1B98A6B514076F06A52040AAFCB1 /* Mockingjay.swift in Sources */,
-				F405E30C12DEEBD7216CC5514A383226 /* MockingjayProtocol.swift in Sources */,
-				372BB941B3EF4C81530686031A897469 /* MockingjayURLSessionConfiguration.m in Sources */,
-				1E581308D18010B04E1B9277D1CA326C /* NSURLSessionConfiguration.swift in Sources */,
-				52DC77D8E40A9F8C775F893EF005EB7D /* XCTest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		544BAB6FDB334656F0D56412A748CAF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -554,12 +325,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DE90B2517C82524DCC0ABE2CBE7DD94 /* Sources */ = {
+		B4A0CDF486E22EB2590BFD2710CFBCCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DC5F4E9DE8018DB4AE41DDECB3F205 /* URITemplate-dummy.m in Sources */,
-				CBD95DE2475DD3C44711E77F0BC7B08A /* URITemplate.swift in Sources */,
+				CB7407802A09B4A7C8CF616CE8C18D58 /* Pods-MarvelComicsTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,232 +342,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F447B04C4F4AF90C5ED6DC23A6B581 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4BEB021BA1C6A64F24463BB76CE21B2 /* Pods-MarvelComicsTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D6DE8BE918141C6EB544CAE6139F2BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = URITemplate;
-			target = 5BAEE407D509A3F67350A21DD9179E25 /* URITemplate */;
-			targetProxy = F2CA48D79945F5AAFE4DFA032EEA3F4E /* PBXContainerItemProxy */;
-		};
-		839503359D65F5788C9EBE47FB7F0589 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = URITemplate;
-			target = 5BAEE407D509A3F67350A21DD9179E25 /* URITemplate */;
-			targetProxy = 37BFFDAAA0C4330B0981D7AB5E102997 /* PBXContainerItemProxy */;
-		};
 		9E885C1143FA472C6155A26D19942E8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
 			target = FF4E4B0D65F36A3E76AC44B99F902C24 /* SwiftyJSON */;
 			targetProxy = CCD713F85849F5FE8006AF24644AAB7C /* PBXContainerItemProxy */;
 		};
-		D74CB841467984836A5D09C1B879C8BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mockingjay;
-			target = 5BAACC736A5215103E10E2DC0A74FDCD /* Mockingjay */;
-			targetProxy = 588DE0275716CEB20EBFE743183BEC71 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12DA41693053555496CAD599FD20D6E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA8E9CD8117A9F5FF19BC024628C1F37 /* URITemplate.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/URITemplate/URITemplate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/URITemplate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/URITemplate/URITemplate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = URITemplate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3DE42AF4076EEF08D1AE137535BBF2B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB8426615328CCF1B172F9647E4CBC25 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		46447681EC910AD39728D30269B3CC11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A46BC81DEA68BC47DF71D8441EE9278 /* Pods-MarvelComics.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MarvelComics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarvelComics/Pods-MarvelComics.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MarvelComics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		564A20DE42D9CBCF53438EE82494550E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB8426615328CCF1B172F9647E4CBC25 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5FD318C43F45FDC30302B12E28AB6402 /* Debug */ = {
+		02E6DACC7DC5EDB5FF93B72758A8C9B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A1A0DA47338B960D1FB6273CC2B9872 /* Pods-MarvelComicsTests.debug.xcconfig */;
 			buildSettings = {
@@ -815,7 +372,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MarvelComicsTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MarvelComicsTests/Pods-MarvelComicsTests.modulemap";
@@ -827,16 +384,121 @@
 				PRODUCT_NAME = Pods_MarvelComicsTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6BE2F180A49DBE4096E6C8AF9BD04F59 /* Debug */ = {
+		3DE42AF4076EEF08D1AE137535BBF2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		564A20DE42D9CBCF53438EE82494550E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56935EBABDC1151507501055AD1E170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A46BC81DEA68BC47DF71D8441EE9278 /* Pods-MarvelComics.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelComics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelComics/Pods-MarvelComics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarvelComics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81DBA5FC92FE0FD78CFD5C05F485980B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC6C9DDD70B2F440413189C66A30CBD4 /* Pods-MarvelComics.debug.xcconfig */;
 			buildSettings = {
@@ -854,7 +516,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MarvelComics/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MarvelComics/Pods-MarvelComics.modulemap";
@@ -875,77 +537,7 @@
 			};
 			name = Debug;
 		};
-		7C3FEAF1BEBD75E5A688A8451B8748C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FC50881724EB3550480D0C68964D97F /* Mockingjay.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Mockingjay/Mockingjay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mockingjay/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mockingjay/Mockingjay.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Mockingjay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		92371711B5EAE02271795B970C905947 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FC50881724EB3550480D0C68964D97F /* Mockingjay.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Mockingjay/Mockingjay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mockingjay/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mockingjay/Mockingjay.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Mockingjay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -985,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -994,7 +586,51 @@
 			};
 			name = Debug;
 		};
-		DECE3CF7CBD7A7072F5B08C49EC576F4 /* Release */ = {
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E022CBF30C490B3CC5A7953E2FDB3981 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4B1C6796CA8E03BBDB5B1F20DDEECF0 /* Pods-MarvelComicsTests.release.xcconfig */;
 			buildSettings = {
@@ -1012,7 +648,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MarvelComicsTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MarvelComicsTests/Pods-MarvelComicsTests.modulemap";
@@ -1024,61 +660,15 @@
 				PRODUCT_NAME = Pods_MarvelComicsTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E2FF5B29ECDD56BA938A7492AAE5F4AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA8E9CD8117A9F5FF19BC024628C1F37 /* URITemplate.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/URITemplate/URITemplate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/URITemplate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/URITemplate/URITemplate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = URITemplate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16964F8FBB08BEB4B7115105EAFE5724 /* Build configuration list for PBXNativeTarget "Mockingjay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92371711B5EAE02271795B970C905947 /* Debug */,
-				7C3FEAF1BEBD75E5A688A8451B8748C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		188233C762D334B4496BB1A94FFD311B /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1091,8 +681,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
-				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BC4F28B578E7B1121387EBEBF7F495 /* Build configuration list for PBXNativeTarget "Pods-MarvelComicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E6DACC7DC5EDB5FF93B72758A8C9B6 /* Debug */,
+				E022CBF30C490B3CC5A7953E2FDB3981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1100,26 +699,8 @@
 		758215582E6EE9B53BD821F9B5F7E786 /* Build configuration list for PBXNativeTarget "Pods-MarvelComics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BE2F180A49DBE4096E6C8AF9BD04F59 /* Debug */,
-				46447681EC910AD39728D30269B3CC11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D98DD6C4CF38D5430309DD1E4BE69A9A /* Build configuration list for PBXNativeTarget "Pods-MarvelComicsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5FD318C43F45FDC30302B12E28AB6402 /* Debug */,
-				DECE3CF7CBD7A7072F5B08C49EC576F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCA68A49A2A8E077759AAE99867F0AEC /* Build configuration list for PBXNativeTarget "URITemplate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2FF5B29ECDD56BA938A7492AAE5F4AD /* Debug */,
-				12DA41693053555496CAD599FD20D6E1 /* Release */,
+				81DBA5FC92FE0FD78CFD5C05F485980B /* Debug */,
+				56935EBABDC1151507501055AD1E170D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

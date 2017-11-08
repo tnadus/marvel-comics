@@ -9,14 +9,6 @@
 import Foundation
 import SwiftyJSON
 
-typealias FetchComicsCallback = ([Comic]) -> Void
-typealias FetchComicsErrorCallback = (Error) -> Void
-
-protocol ComicsAPIProtocol {
-    func fetchComicData(onSuccess: FetchComicsCallback?,
-                        onError: FetchComicsErrorCallback?)
-}
-
 class MarvelComicsAPI: ComicsAPIProtocol {
     
     let API_BASE_URL = "https://gateway.marvel.com/v1/public/comics"
@@ -43,19 +35,25 @@ class MarvelComicsAPI: ComicsAPIProtocol {
             
             if let err = error {
                 print(err)
-                onError?(err)
+                DispatchQueue.main.sync {
+                    onError?(err)
+                }
                 return
             }
             
             if response == nil || (response as! HTTPURLResponse).statusCode != 200 {
-                let err = NSError(domain: "Response is empty or status code is not 200", code: 400, userInfo: nil)
-                onError?(err)
+                DispatchQueue.main.sync {
+                    let err = NSError(domain: "Response is empty or status code is not 200", code: 400, userInfo: nil)
+                    onError?(err)
+                }
                 return
             }
             
             guard let data = data  else {
-                let err = NSError(domain: "response data is nil", code: 400, userInfo: nil)
-                onError?(err)
+                DispatchQueue.main.sync {
+                    let err = NSError(domain: "response data is nil", code: 400, userInfo: nil)
+                    onError?(err)
+                }
                 return
             }
             
@@ -68,7 +66,10 @@ class MarvelComicsAPI: ComicsAPIProtocol {
                 let comic = Comic(comicJSON)
                 comics.append(comic)
             }
-            onSuccess?(comics)
+            
+            DispatchQueue.main.sync {
+                onSuccess?(comics)
+            }
             
         }.resume()
     }

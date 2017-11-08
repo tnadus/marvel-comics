@@ -11,7 +11,6 @@ target 'MarvelComics' do
   target 'MarvelComicsTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'Mockingjay'
 
   end
 

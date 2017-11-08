@@ -11,26 +11,47 @@ import UIKit
 class ComicsGalleryViewController: UICollectionViewController {
     
     let viewModel = ComicsGalleryViewModel(comicsAPI: MarvelComicsAPI())
+    var spinner: UIActivityIndicatorView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupViews()
+        bindViews()
+    }
+    
+    func setupViews() {
         self.title = viewModel.title
-        
+        setupBarButton()
+    }
+    
+    func setupBarButton() {
+        self.spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.white)
+        spinner?.backgroundColor = .darkGray
+        spinner?.isOpaque = true
+        spinner?.layer.cornerRadius = (spinner?.frame.width)!/2.0
+        spinner?.layer.borderColor = UIColor.black.cgColor
+        spinner?.layer.borderWidth = 1.0
+        spinner?.hidesWhenStopped = true
+        spinner?.startAnimating()
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: spinner!)
+    }
+    
+    func bindViews() {
         viewModel.comics.bind { [unowned self] _ in
-            DispatchQueue.main.async {
-                self.collectionView?.reloadData()
-            }
+            self.collectionView?.reloadData()
+            self.spinner?.stopAnimating()
         }
     }
-
+    
+    //MARK: Memory management
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 }
 
-//MARK: UIViewCollectionDataSource
+//MARK: - UIViewCollectionDataSource
+
 extension ComicsGalleryViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -57,7 +78,8 @@ extension ComicsGalleryViewController {
     }
 }
 
-//MARK: UIViewCollectionDelegate
+//MARK: - UIViewCollectionDelegate
+
 extension ComicsGalleryViewController {
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
@@ -83,6 +105,8 @@ extension ComicsGalleryViewController {
         collectionView.deselectItem(at: indexPath, animated: true)
     }
 }
+
+//MARK: - UIViewCollectionFlowLayoutDelegate
 
 extension ComicsGalleryViewController: UICollectionViewDelegateFlowLayout {
     

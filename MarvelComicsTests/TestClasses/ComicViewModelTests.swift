@@ -69,7 +69,7 @@ class ComicViewModelTests: XCTestCase {
     
     func test_heroNamesTextIsSetCorrectlyForAnEmptyComic() {
         let sut = ComicViewModel(comic: comicEmpty!, coverImage: nil)
-        XCTAssertEqual(sut.heroNamesText, "No hero found in this comic")
+        XCTAssertEqual(sut.heroNamesText, "No characters found in this comic")
     }
     
 }
