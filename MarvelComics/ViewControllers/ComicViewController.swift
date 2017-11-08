@@ -18,19 +18,36 @@ class ComicViewController: UIViewController {
     
     var viewModel:ComicViewModel?
     
+    //MARK: View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
     }
     
+    //MARK: Subviews management
     func setupViews() {
+        self.title = viewModel?.title
         coverImgView.image = viewModel?.coverImage
         nameLabel.text = viewModel?.nameTitle
         issueLabel.text = viewModel?.issueNumberTitle
         descriptionTextView.text = viewModel?.descriptionText
         charactersTextView.text = viewModel?.heroNamesText
+        if (UIDevice.current.userInterfaceIdiom == .pad) {
+            setupBarButtonItem();
+        }
+    }
+    
+    func setupBarButtonItem() {
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: viewModel?.barButtonItemTitle, style: UIBarButtonItemStyle.plain, target: self, action: #selector(onBarButtonItemTapped))
+    }
+    
+    //MARK: Actions
+    @objc func onBarButtonItemTapped(sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
 
+    
+    //MARK: Memory management
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

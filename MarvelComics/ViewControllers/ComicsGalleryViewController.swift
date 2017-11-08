@@ -66,14 +66,33 @@ extension ComicsGalleryViewController {
         
         let comicVc: ComicViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ComicViewController") as! ComicViewController
         comicVc.viewModel = ComicViewModel(comic: comic, coverImage: cell.coverImgView.image)
-        self.navigationController?.pushViewController(comicVc, animated: true)
+        if (UIDevice.current.userInterfaceIdiom == .phone) {
+            self.navigationController?.pushViewController(comicVc, animated: true)
+        } else {
+            let navigationController = UINavigationController(rootViewController: comicVc)
+            navigationController.modalPresentationStyle = .formSheet
+            present(navigationController, animated: true, completion: nil)
+        }
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
+        collectionView.selectItem(at: indexPath, animated: true, scrollPosition: UICollectionViewScrollPosition(rawValue: 0))
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
     }
 }
 
 extension ComicsGalleryViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return viewModel.cellSize(width: self.view.frame.width, height: 90.0)
+        
+        if (UIDevice.current.userInterfaceIdiom == .phone) {
+            return viewModel.cellSize(width:self.view.frame.width, height: 90.0)
+        }
+        
+        return viewModel.cellSize(width: (self.view.frame.width/3.0 - 20), height: 90.0)
     }
 }
 

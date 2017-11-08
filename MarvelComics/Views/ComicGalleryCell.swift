@@ -48,6 +48,16 @@ class ComicGalleryCell: UICollectionViewCell {
         super.init(coder: aDecoder)
     }
     
+    override var isHighlighted: Bool {
+        didSet {
+            if(isHighlighted == true){
+                self.backgroundColor = .lightGray
+            } else{
+                self.backgroundColor = .white
+            }
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         setupViews()
@@ -71,10 +81,10 @@ class ComicGalleryCell: UICollectionViewCell {
         
         self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-50-[inl(==30)]", options: NSLayoutFormatOptions(), metrics: nil, views: ["inl" : issueNumberLabel]))
         
-        self.addSubview(bottomLine)
-        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[bl]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["bl" : bottomLine]))
-        
-        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:[bl(==1)]-0-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["bl" : bottomLine]))
+//        self.addSubview(bottomLine)
+//        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[bl]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["bl" : bottomLine]))
+//        
+//        self.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:[bl(==1)]-0-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["bl" : bottomLine]))
         
     }
     

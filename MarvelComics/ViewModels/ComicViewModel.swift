@@ -12,6 +12,8 @@ class ComicViewModel {
     
     let comic: Comic
     let coverImage: UIImage?
+    let title = "Comic Details"
+    let barButtonItemTitle = "Done"
     
     init(comic: Comic, coverImage: UIImage?) {
         self.comic = comic
