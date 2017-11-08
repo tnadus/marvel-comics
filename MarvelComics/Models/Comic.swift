@@ -31,7 +31,7 @@ extension Comic {
         }
         self.description = jsonComic["description"].string
         
-        if let heros = jsonComic["characters"]["items"].array {
+        if let heros = jsonComic["characters"]["items"].array, heros.count > 0 {
             self.characters = []
             for hero in heros {
                 if let heroName = hero["name"].string {

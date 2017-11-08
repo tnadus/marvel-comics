@@ -12,12 +12,12 @@ import SwiftyJSON
 typealias FetchComicsCallback = ([Comic]) -> Void
 typealias FetchComicsErrorCallback = (Error) -> Void
 
-protocol MarvelComicsAPIProtocol {
+protocol ComicsAPIProtocol {
     func fetchComicData(onSuccess: FetchComicsCallback?,
                         onError: FetchComicsErrorCallback?)
 }
 
-class MarvelComicsAPI: MarvelComicsAPIProtocol {
+class MarvelComicsAPI: ComicsAPIProtocol {
     
     let API_BASE_URL = "https://gateway.marvel.com/v1/public/comics"
     let API_PUBLIC_KEY  = "3031e125033011e273d7d758f6441fcd"

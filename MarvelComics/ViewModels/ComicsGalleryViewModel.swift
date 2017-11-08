@@ -10,21 +10,20 @@ import UIKit
 
 class ComicsGalleryViewModel {
     
-    let marvelComicsAPI: MarvelComicsAPIProtocol
+    let comicsAPI: ComicsAPIProtocol
     let title = "Comics Gallery"
     let cache = NSCache<AnyObject, AnyObject>()
     let dateFormatterInput = DateFormatter()
     let dateFormatterOutput = DateFormatter()
     
-    //var datas = Variable<[FlickrData]>([])
     var comics: Dynamic<[Comic]> = Dynamic(value:[])
     
-    init() {
+    init(comicsAPI: ComicsAPIProtocol) {
         dateFormatterInput.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZ"
         dateFormatterOutput.dateFormat = "yyyy-MM-dd"
-        self.marvelComicsAPI = MarvelComicsAPI()
+        self.comicsAPI = comicsAPI
         
-        marvelComicsAPI.fetchComicData(onSuccess: { (comics) in
+        comicsAPI.fetchComicData(onSuccess: { (comics) in
             self.comics.value = comics
         }) { (err) in
             print("Failed to fetch data")
@@ -37,14 +36,14 @@ class ComicsGalleryViewModel {
     }
     
     func cellTitle(indexPath: IndexPath) -> String {
-        if let titleFull = comics.value[indexPath.row].title {
+        if comics.value.count > 0, let titleFull = comics.value[indexPath.row].title {
             return titleFull.components(separatedBy: "#")[0]
         }
         return ""
     }
     
     func cellIssueNumberTitle(indexPath: IndexPath) -> String {
-        if let number = comics.value[indexPath.row].issueNumberString {
+        if comics.value.count > 0, let number = comics.value[indexPath.row].issueNumberString {
             return "Issue number: \(number)"
         }
         return ""
@@ -69,10 +68,13 @@ class ComicsGalleryViewModel {
         ImageLoader.load(urlString: urlString) { data in
             
             if let dataImg = data {
-                let img = UIImage(data: dataImg)
-                self.cache.setObject(img!, forKey: urlString as AnyObject)
-                completion(img)
+                if let img = UIImage(data: dataImg) {
+                    self.cache.setObject(img, forKey: urlString as AnyObject)
+                    completion(img)
+                    return
+                }
             }
+            completion(nil)
         }
     }
     

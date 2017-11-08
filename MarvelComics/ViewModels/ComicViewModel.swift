@@ -44,9 +44,11 @@ class ComicViewModel {
     var heroNamesText: String {
         if let heroNames = comic.characters, heroNames.count > 0 {
             var text = ""
-            for hero in heroNames {
-                text += hero
+            for i in 0..<heroNames.count {
+                text += heroNames[i]
+                text += (i == (heroNames.count-1)) ? "" : ", "
             }
+            return text
         }
         
         return "No hero found in this comic"

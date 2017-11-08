@@ -10,7 +10,7 @@ import UIKit
 
 class ComicsGalleryViewController: UICollectionViewController {
     
-    let viewModel = ComicsGalleryViewModel()
+    let viewModel = ComicsGalleryViewModel(comicsAPI: MarvelComicsAPI())
     
     override func viewDidLoad() {
         super.viewDidLoad()

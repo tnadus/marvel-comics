@@ -1,0 +1,2703 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "© 2017 MARVEL",
+    "attributionText": "Data provided by Marvel. © 2017 MARVEL",
+    "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>",
+    "etag": "7d71db3826a84e34e7c04007051a8dd2109bd909",
+    "data": {
+        "offset": 0,
+        "limit": 30,
+        "total": 40563,
+        "count": 30,
+        "results": [
+                    {
+                    "id": 15471,
+                    "digitalId": 0,
+                    "title": "Marvel Super-Heroes (1967) #60",
+                    "issueNumber": 60,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/15471",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/15471/marvel_super-heroes_1967_60?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2300",
+                    "name": "Marvel Super-Heroes (1967 - 1982)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/15471/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/15471/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/15471/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/31468",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67436",
+                              "name": "Marvel Super-Heroes 60 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/15471/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 16948,
+                    "digitalId": 0,
+                    "title": "Rawhide Kid (1960) #121",
+                    "issueNumber": 121,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/16948",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/16948/rawhide_kid_1960_121?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2988",
+                    "name": "Rawhide Kid (1960 - 1979)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16948/creators",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1519",
+                              "name": "Frank Giacoia",
+                              "role": "inker"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/945",
+                              "name": "Larry Lieber",
+                              "role": "penciler"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16948/characters",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010892",
+                              "name": "Rawhide Kid"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "stories": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16948/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35562",
+                              "name": "Side By Side With Kid Colt, Outlaw!",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16948/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19147,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #201",
+                    "issueNumber": 201,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19147",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19147/millie_the_model_1945_201?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19147/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19147/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19147/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40847",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68131",
+                              "name": "Millie the Model 201 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19147/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 9939,
+                    "digitalId": 0,
+                    "title": "Love Romances (1949) #44",
+                    "issueNumber": 44,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/9939",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/9939/love_romances_1949_44?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2034",
+                    "name": "Love Romances (1949 - 1961)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9939/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9939/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9939/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/27295",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/66823",
+                              "name": "Love Romances 44 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9939/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 16964,
+                    "digitalId": 0,
+                    "title": "Rawhide Kid (1960) #137",
+                    "issueNumber": 137,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/16964",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/16964/rawhide_kid_1960_137?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2988",
+                    "name": "Rawhide Kid (1960 - 1979)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16964/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16964/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16964/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35586",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67631",
+                              "name": "Rawhide Kid 137 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16964/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19163,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #3",
+                    "issueNumber": 3,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19163",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19163/millie_the_model_1945_3?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19163/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19163/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19163/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40863",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68147",
+                              "name": "Millie the Model 3 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19163/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 9955,
+                    "digitalId": 0,
+                    "title": "Love Romances (1949) #6",
+                    "issueNumber": 6,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/9955",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/9955/love_romances_1949_6?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2034",
+                    "name": "Love Romances (1949 - 1961)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9955/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9955/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9955/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/27313",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/66837",
+                              "name": "Love Romances 6 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9955/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19179,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #44",
+                    "issueNumber": 44,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19179",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19179/millie_the_model_1945_44?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19179/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19179/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19179/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40928",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68158",
+                              "name": "Millie the Model 44 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19179/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 16816,
+                    "digitalId": 0,
+                    "title": "Astonishing (1951) #20",
+                    "issueNumber": 20,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/16816",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/16816/astonishing_1951_20?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2982",
+                    "name": "Astonishing (1951 - 1957)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16816/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16816/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16816/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35118",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67591",
+                              "name": "Astonishing 20 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16816/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 9971,
+                    "digitalId": 0,
+                    "title": "Love Romances (1949) #74",
+                    "issueNumber": 74,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/9971",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/9971/love_romances_1949_74?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2034",
+                    "name": "Love Romances (1949 - 1961)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9971/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9971/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9971/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/27329",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/66853",
+                              "name": "Love Romances 74 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/9971/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 37511,
+                    "digitalId": 0,
+                    "title": "Nomad (2010) #3",
+                    "issueNumber": 3,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "2014-05-08T12:18:41-0400",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Digital Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/37511",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/37511/nomad_2010_3?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             },
+                             {
+                             "type": "purchase",
+                             "url": "http://comicstore.marvel.com/Nomad-3/digital-comic/15702?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/13498",
+                    "name": "Nomad (2010)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37511/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37511/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37511/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/106430",
+                              "name": "cover from Nomad #3",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37511/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 22698,
+                    "digitalId": 0,
+                    "title": "Ghost Rider (1990) #61",
+                    "issueNumber": 61,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/22698",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/22698/ghost_rider_1990_61?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/6255",
+                    "name": "Ghost Rider (1990 - 1998)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/22698/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/22698/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/22698/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50492",
+                              "name": "Cover #50492",
+                              "type": "cover"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50493",
+                              "name": "Interior #50493",
+                              "type": "interiorStory"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/22698/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 21661,
+                    "digitalId": 0,
+                    "title": "Psi-Force (1986) #19",
+                    "issueNumber": 19,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/21661",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/21661/psi-force_1986_19?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/5265",
+                    "name": "Psi-Force (1986 - 1989)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/21661/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/21661/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/21661/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48894",
+                              "name": "Cover #48894",
+                              "type": "cover"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48895",
+                              "name": "Interior #48895",
+                              "type": "interiorStory"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/21661/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 10467,
+                    "digitalId": 0,
+                    "title": "Our Love Story (1973) #21",
+                    "issueNumber": 21,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/10467",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/10467/our_love_story_1973_21?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2058",
+                    "name": "Our Love Story (1973)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10467/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10467/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10467/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/19815",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/66891",
+                              "name": "Our Love Story 21 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10467/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19195,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #59",
+                    "issueNumber": 59,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19195",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19195/millie_the_model_1945_59?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19195/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19195/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19195/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40955",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68173",
+                              "name": "Millie the Model 59 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19195/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 22682,
+                    "digitalId": 0,
+                    "title": "Ghost Rider (1990) #47",
+                    "issueNumber": 47,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/22682",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/22682/ghost_rider_1990_47?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/6255",
+                    "name": "Ghost Rider (1990 - 1998)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/22682/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/22682/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/22682/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50464",
+                              "name": "Cover #50464",
+                              "type": "cover"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50465",
+                              "name": "Interior #50465",
+                              "type": "interiorStory"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/22682/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 10483,
+                    "digitalId": 0,
+                    "title": "Our Love Story (1973) #36",
+                    "issueNumber": 36,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/10483",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/10483/our_love_story_1973_36?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2058",
+                    "name": "Our Love Story (1973)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10483/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10483/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10483/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/19835",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/66906",
+                              "name": "Our Love Story 36 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10483/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 8837,
+                    "digitalId": 0,
+                    "title": "Human Torch (1940) #17",
+                    "issueNumber": 17,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/8837",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/8837/human_torch_1940_17?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2019",
+                    "name": "Human Torch (1940 - 1954)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/8837/creators",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1358",
+                              "name": "Al Avison",
+                              "role": "penciller"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1453",
+                              "name": "Allen Simon",
+                              "role": "penciller"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1454",
+                              "name": "Jimmy Thompson",
+                              "role": "penciller"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1445",
+                              "name": "Vince Fago",
+                              "role": "editor"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1449",
+                              "name": "George Klein",
+                              "role": "inker"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1448",
+                              "name": "Carl Pfeufer",
+                              "role": "inker"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/949",
+                              "name": "Alex Schomburg",
+                              "role": "penciller (cover)"
+                              }
+                              ],
+                    "returned": 7
+                    },
+                    "characters": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/8837/characters",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009356",
+                              "name": "Human Torch"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010791",
+                              "name": "Sub-Mariner"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "stories": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/8837/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/26366",
+                              "name": "Cover #26366",
+                              "type": "cover"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/26367",
+                              "name": "The Ghostly Horror",
+                              "type": "interiorStory"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/26368",
+                              "name": "The Skulking Killer",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/26369",
+                              "name": "The Arroyo",
+                              "type": "text story"
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/26370",
+                              "name": "Devil's Double",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/26371",
+                              "name": "The Zombie Terror",
+                              "type": ""
+                              }
+                              ],
+                    "returned": 6
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/8837/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19211,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #73",
+                    "issueNumber": 73,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19211",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19211/millie_the_model_1945_73?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19211/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19211/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19211/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40971",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68189",
+                              "name": "Millie the Model 73 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19211/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19051,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #115",
+                    "issueNumber": 115,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19051",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19051/millie_the_model_1945_115?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19051/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19051/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19051/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40726",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68038",
+                              "name": "Millie the Model 115 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19051/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 37090,
+                    "digitalId": 0,
+                    "title": "Powers (2000) #16",
+                    "issueNumber": 16,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/37090",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/37090/powers_2000_16?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/12574",
+                    "name": "Powers (2000 - 2004)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37090/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37090/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37090/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/106491",
+                              "name": "cover from Powers #16",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37090/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19227,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #88",
+                    "issueNumber": 88,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19227",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19227/millie_the_model_1945_88?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19227/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19227/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19227/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40987",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68205",
+                              "name": "Millie the Model 88 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19227/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 10827,
+                    "digitalId": 0,
+                    "title": "Spider-Man (1990) #64",
+                    "issueNumber": 64,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/10827",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/10827/spider-man_1990_64?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2069",
+                    "name": "Spider-Man (1990 - 1998)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10827/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10827/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10827/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23857",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67022",
+                              "name": "Spider-Man 64 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/10827/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 18557,
+                    "digitalId": 0,
+                    "title": "Two-Gun Kid (1948) #36",
+                    "issueNumber": 36,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/18557",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/18557/two-gun_kid_1948_36?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3662",
+                    "name": "Two-Gun Kid (1948 - 1977)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/18557/creators",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1576",
+                              "name": "Joe Maneely",
+                              "role": "penciler"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/18557/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/18557/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39650",
+                              "name": "The Beginning of the Legend of the Two-Gun Kid!",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/18557/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19067,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #13",
+                    "issueNumber": 13,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19067",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19067/millie_the_model_1945_13?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19067/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19067/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19067/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40742",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68054",
+                              "name": "Millie the Model 13 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19067/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 16864,
+                    "digitalId": 0,
+                    "title": "Astonishing (1951) #7",
+                    "issueNumber": 7,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/16864",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/16864/astonishing_1951_7?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2982",
+                    "name": "Astonishing (1951 - 1957)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16864/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16864/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16864/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35326",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/67609",
+                              "name": "Astonishing 7 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/16864/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 20756,
+                    "digitalId": 0,
+                    "title": "Dead of Night (1973) #10",
+                    "issueNumber": 10,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/20756",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/20756/dead_of_night_1973_10?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3898",
+                    "name": "Dead of Night (1973)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/20756/creators",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1219",
+                              "name": "Ron Wilson",
+                              "role": "penciler"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/20756/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/20756/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/44511",
+                              "name": "I Dream Of Doom!",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/20756/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 37527,
+                    "digitalId": 0,
+                    "title": "Powers (2000) #29",
+                    "issueNumber": 29,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "2014-05-08T12:18:41-0400",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Digital Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/37527",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/37527/powers_2000_29?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/12574",
+                    "name": "Powers (2000 - 2004)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37527/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37527/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37527/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/106504",
+                              "name": "cover from Powers #29",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 1
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/37527/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19462,
+                    "digitalId": 0,
+                    "title": "Marville (2002) #4",
+                    "issueNumber": 4,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19462",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19462/marville_2002_4?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3710",
+                    "name": "Marville (2002)"
+                    },
+                    "variants": [],
+                    "collections": [
+                                    {
+                                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/1116",
+                                    "name": "Marville Vol. 1 (Trade Paperback)"
+                                    }
+                                    ],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/4c362aae9a195",
+                    "extension": "jpg"
+                    },
+                    "images": [
+                               {
+                               "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/4c362aae9a195",
+                               "extension": "jpg"
+                               }
+                               ],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19462/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19462/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19462/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/41299",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68419",
+                              "name": "Marville 4 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19462/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    },
+                    {
+                    "id": 19083,
+                    "digitalId": 0,
+                    "title": "Millie the Model (1945) #144",
+                    "issueNumber": 144,
+                    "variantDescription": "",
+                    "description": null,
+                    "modified": "-0001-11-30T00:00:00-0500",
+                    "isbn": "",
+                    "upc": "",
+                    "diamondCode": "",
+                    "ean": "",
+                    "issn": "",
+                    "format": "Comic",
+                    "pageCount": 0,
+                    "textObjects": [],
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/19083",
+                    "urls": [
+                             {
+                             "type": "detail",
+                             "url": "http://marvel.com/comics/issue/19083/millie_the_model_1945_144?utm_campaign=apiRef&utm_source=3031e125033011e273d7d758f6441fcd"
+                             }
+                             ],
+                    "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/3707",
+                    "name": "Millie the Model (1945 - 1965)"
+                    },
+                    "variants": [],
+                    "collections": [],
+                    "collectedIssues": [],
+                    "dates": [
+                              {
+                              "type": "onsaleDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              },
+                              {
+                              "type": "focDate",
+                              "date": "-0001-11-30T00:00:00-0500"
+                              }
+                              ],
+                    "prices": [
+                               {
+                               "type": "printPrice",
+                               "price": 0
+                               }
+                               ],
+                    "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                    },
+                    "images": [],
+                    "creators": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19083/creators",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19083/characters",
+                    "items": [],
+                    "returned": 0
+                    },
+                    "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19083/stories",
+                    "items": [
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40758",
+                              "name": "",
+                              "type": ""
+                              },
+                              {
+                              "resourceURI": "http://gateway.marvel.com/v1/public/stories/68070",
+                              "name": "Millie the Model 144 cover",
+                              "type": "cover"
+                              }
+                              ],
+                    "returned": 2
+                    },
+                    "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/19083/events",
+                    "items": [],
+                    "returned": 0
+                    }
+                    }
+                    ]
+    }
+}
