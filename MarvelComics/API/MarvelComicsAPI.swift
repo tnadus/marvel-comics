@@ -14,7 +14,7 @@ class MarvelComicsAPI: ComicsAPIProtocol {
     let API_BASE_URL = "https://gateway.marvel.com/v1/public/comics"
     let API_PUBLIC_KEY  = "3031e125033011e273d7d758f6441fcd"
     let API_PRIVATE_KEY = "184bb21ba2bea458403fd2d2fabf9e3854ad9ffd"
-    let API_ORDER_BY = "onsaleDate"
+    let API_ORDER_BY = "-focDate"
     let API_LIMIT = "30"
     let API_OFFSET = "0"
     
